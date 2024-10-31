@@ -26,6 +26,6 @@ function capitalizeWord(word) {
 ## Work Experience
 Fusce molestie quam non justo aliquet, sit amet dignissim libero fermentum. Aenean eget odio vel purus dictum imperdiet mattis in arcu. Proin ultrices, lacus at vehicula lobortis, risus erat ornare enim, sed vulputate urna risus vel augue. Ut finibus ullamcorper mauris in accumsan. Sed hendrerit, lectus eu rhoncus laoreet, dolor velit consequat arcu, mattis interdum tellus dolor at lorem. Nulla vel suscipit eros. Etiam auctor purus sed quam tempor luctus. Aenean accumsan commodo ornare.
 
-## English 
+## Languages of communication 
 * Russian is a native language
 * English at A2 level 

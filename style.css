@@ -125,3 +125,8 @@ code {
   left: -80px;
   font-size: 14px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}

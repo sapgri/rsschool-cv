@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
+
 <body>
   <header class="header">
     <div class="container header-container">
@@ -14,14 +16,80 @@
         <h1>Grigoriy Sapozhnikov</h1>
         <h3>Junior front-end developer</h3>
       </div>
-      <ul class="contacts">
-        <li>Location: Krasnodar region, Russia</li>
-        <li>Phone: <a href="tel:+79993223322">+7(999)322-33-22</a></li>
-        <li>E-mail: <a href="mailto:my-name@mail.com">my-name@mail.com</a></li>
-        <li>GitHub: <a href="https://github.com/sapgri">sapgri</a></li>
-      </ul>
-      <img src="./assets/images/cv-image.jpeg" alt="cv-image" class="cv-image">
+      <nav class="nav uppercase">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">About me</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#code">Code example</a></li>
+          <li class="nav-item"><a href="#work-experience">Work experience</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+      <img src="./assets/images/serval.png" alt="cv-image" class="cv-image">
     </div>
   </header>
+  <main class="main">
+    <div class="container">
+      <section class="about-me" id="about">
+        <h2>About me</h2>
+        <p>A dedicated and creative novice web developer with a passion for creating unique and exciting websites. I
+          have several completed projects demonstrating site building skills. I strive for professional growth and
+          development in the field of web programming, I am ready for cooperation and new challenges.</p>
+        <ul class="contacts circle">
+          <li>Location: Krasnodar region, Russia</li>
+          <li>Phone: <a href="tel:+79993223322">+7(999)322-33-22</a></li>
+          <li>E-mail: <a href="mailto:my-name@mail.com">my-name@mail.com</a></li>
+          <li>GitHub: <a href="https://github.com/sapgri">sapgri</a></li>
+        </ul>
+      </section>
+      <section class="education" id="education">
+        <h2>Education</h2>
+        <p>I did not graduate from universities.</p>
+      </section>
+      <div class="wrapper">
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul class="circle">
+            <li>Git</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </section>
+        <section class="code" id="code">
+          <h2>Code example</h2>
+          <pre>
+            <code>
+              function capitalizeWord(word) {
+                return word[0].toUpperCase() + word.slice(1).toLowerCase();
+              }
+            </code>
+          </pre>
+        </section>
+        <section class="work-experience" id="work-experience">
+          <h2>Work experience</h2>
+          <ul class="circle">
+            <li><a href="https://sapgri.github.io/rsschool-cv/cv">RSSchool CV Markdown</a></li>
+            <li><a href="https://sapgri.github.io/rsschool-cv/">RSSchool CV HTML&amp;CSS</a></li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h2>Languages</h2>
+          <ul class="circle">
+            <li>Russian is a native language</li>
+            <li>English at A2 level</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="logo">
+        <p>footer</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
